@@ -1,0 +1,222 @@
+body {
+    font-family: Quicksand, sans-serif;
+    line-height: 1.45;
+}
+
+.banner-heading {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .banner-heading {
+        font-size: 30px;
+    }
+}
+
+.banner-sub-heading {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 24px;
+
+    width: 400px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+    .banner-sub-heading {
+        font-size: 20px;
+    }
+}
+
+.banner button {
+    height: 48px;
+    border-radius: 4px;
+    background-color: #DE6C17;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 18rpx;
+    color: #ffffff;
+}
+
+.heading1 {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 45px;
+    color: #36413C;
+}
+
+@media screen and (max-width: 600px) {
+    .heading1 {
+        font-size: 30px;
+    }
+}
+
+.heading2 {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 28px;
+    color: #36413C;
+    margin: 0 12.5px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .heading2 {
+        font-size: 24px;
+    }
+}
+
+.heading3 {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 24px;
+    color: #5E6E66;
+    width: 600px;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .heading3 {
+        font-size: 20px;
+        width: 400px;
+    }
+}
+
+.paragraph {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5E6E66;
+    
+    margin: 5px 12.5px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .paragraph {
+        font-size: 16px;
+    }
+}
+
+a:link {
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 12.5px 10px;
+    color: #DE6C17;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    height: 300px;
+    background-size: auto;
+    background-position: center;
+    background-image: url("assets/main-banner.png");
+    
+    padding: 88.5px 316.5px 108px 109.5px;
+}
+
+@media screen and (max-width: 992px) {
+    .banner {
+        padding: 92.5px 167.5px 104px 50.5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        padding: 62px 135.5px 68px 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner {
+        padding: 34px 10px 44.5px;
+        font-size: 16px;
+    }
+}
+
+.wave {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    right: -3px;
+}
+
+.services {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.blogs {
+    display: flex;
+    margin: 0 60px 60px 60px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .blogs {
+        display: grid;
+    }
+}
+
+
+.blog {
+    width: 300px;
+    margin: 10px 20px;
+}
+
+@media screen and (max-width: 992px) {   
+    .blog {
+        width: 600px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {   
+    .blog {
+        width: 300px;
+        display: grid;
+    }
+}
+
+.blog img {
+    width: 300px;
+    border-radius: 4px 4px 0 0;
+}
+
+.blog .blog-content {
+
+    margin: -5px 0;
+    padding: 0 0 13.5px;
+
+    background-color: #ffffff;
+
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.18);
+}
+
+@media screen and (max-width: 992px) {   
+    .blog img {
+        border-radius: 4px 0 0 4px 
+    }
+
+    .blog .blog-content {
+        border-radius: 0 4px 4px 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {   
+    .blog img {
+        border-radius: 4px 4px 0 0;
+    }
+
+    .blog .blog-content {
+        border-radius: 0 0 4px 4px;
+        width: 300px;
+        display: grid;
+    }
+}
